@@ -1,7 +1,7 @@
 import axios from "axios";
 import { getItem } from "../components/helpers/Persistance-storage";
 
-axios.defaults.baseURL = 'https://api.allorigins.win/raw?url=https://api.realworld.io/api';
+axios.defaults.baseURL = '/api';
 
 axios.interceptors.request.use(config => {
     const token = getItem('token');
