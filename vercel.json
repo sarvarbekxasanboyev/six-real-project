@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "https://api.realworld.io/api/:path*"
+      "destination": "https://conduit-api.bondaracademy.com/api/:path*"
     }
   ]
 }
